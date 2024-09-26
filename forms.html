@@ -7,10 +7,10 @@
   </head>
   <body>
     <h1>Forms Demo</h1>
-    <form action="/tacos">
+    <form action="https://www.reddit.com/search">
       <p>
         <label for="username">Enter your Username:</label>
-        <input type="text" placeholder="username" id="username" />
+        <input type="text" placeholder="username" id="username" name="q" />
       </p>
       <p>
         <label for="password">Enter your Password:</label>
@@ -32,6 +32,75 @@
         <input type="submit" />
       </p> -->
       <button>submit</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <p>
+        <label for="search">Search what you want to search</label>
+        <input
+          type="text"
+          name="q"
+          placeholder="what would you like to search?"
+        />
+      </p>
+    </form>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+      <input
+        type="text"
+        placeholder="Search videos on Youtube"
+        name="search_query"
+      />
+      <p>
+        <label for="">Select your Gender</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Transgendern">Transgender</option>
+          <option value="no-answer">I don't want to answer</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Shaivya's Hotness?</label>
+        <input
+          type="range"
+          id="hotness"
+          min="0"
+          max="100"
+          name="Shaivys_Hotness"
+          value="5"
+        />
+      </p>
+      <p>
+        <label for="request">Any Special Requests?</label>
+        <textarea
+          id="request"
+          name="request"
+          cols="80"
+          rows="25"
+          placeholder="Write something"
+        ></textarea>
+      </p>
+    </form>
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+      <label for="first">First Name</label>
+      <input type="text" name="first" id="first" required />
+      <p>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="4"
+          maxlength="12"
+          required
+        />
+        <button>submit</button>
+      </p>
+      <p>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required />
+      </p>
     </form>
   </body>
 </html>

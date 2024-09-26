@@ -1,9 +1,21 @@
 h2 {
-    color: blueviolet;
+    color: teal;
+    background-color: rosybrown;
 }
 button {
-    background-color: bisque;
+    background-color: magenta;
+    color: rgb(100, 100, 100);
 }
 h1{
     color: forestgreen;
+    background-color: salmon;
+}
+p{
+    color: #ABCDEF;
+    background-color: azure;
+    background: rgb(89, 151, 0);
+}
+
+a{
+
 }

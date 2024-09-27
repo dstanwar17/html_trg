@@ -1,6 +1,15 @@
-h2 {
+* {
+    background-color: darkslateblue;
+}
+
+h2, h1, h3 {
+    text-align: center;
+    text-decoration: maroon underline wavy 1px;
+    font-weight: 900;
     color: teal;
     background-color: rosybrown;
+    letter-spacing: 20px;
+    font-size: 45px;
 }
 button {
     background-color: magenta;
@@ -11,11 +20,16 @@ h1{
     background-color: salmon;
 }
 p{
+    line-height: 2;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:900;
     color: #ABCDEF;
     background-color: azure;
     background: rgb(89, 151, 0);
 }
 
 a{
-
+    text-decoration: none;
 }
